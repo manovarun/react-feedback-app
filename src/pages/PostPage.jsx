@@ -1,13 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Button from '../components/shared/Button';
-import {
-  useParams,
-  Navigate,
-  useNavigate,
-  Routes,
-  Route,
-} from 'react-router-dom';
+import { useParams, useNavigate, Routes, Route } from 'react-router-dom';
 
 const PostPage = () => {
   const params = useParams();
